@@ -1,4 +1,4 @@
 export const environment = {
-  appName: "demo-front-a6",
+  appName: 'demo-angular-a6',
   production: true
 };
