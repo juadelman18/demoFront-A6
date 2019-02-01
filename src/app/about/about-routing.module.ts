@@ -5,6 +5,7 @@ import { AuthorComponent } from './about/authors/author/author.component';
 import { AuthorsComponent } from './about/authors/authors.component';
 import { InfoComponent } from './about/info/info.component';
 import { LinksComponent } from './about/links/links.component';
+
 const routes: Routes = [
   {
     path: '',

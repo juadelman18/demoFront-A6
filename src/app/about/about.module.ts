@@ -12,6 +12,6 @@ import { AuthorComponent } from './about/authors/author/author.component';
     CommonModule,
     AboutRoutingModule
   ],
-  declarations: [LinksComponent, InfoComponent, AuthorsComponent, AuthorComponent]
+  declarations: [AboutComponent, LinksComponent, InfoComponent, AuthorsComponent, AuthorComponent]
 })
 export class AboutModule { }

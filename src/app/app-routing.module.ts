@@ -1,15 +1,24 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { NotFoundComponent } from './core/not-found/not-found.component';
+import { CarComponent } from './car/car/car.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     loadChildren: './home/home.module#HomeModule'
   },
   {
     path: 'about',
     loadChildren: './about/about.module#AboutModule'
+  },
+  {
+    path: 'car',
+    loadChildren: './car/car.module#CarModule'
+  },
+  {
+    path: 'proyects',
+    loadChildren: './projects/projects.module#ProjectsModule'
   },
   {
     path: 'not-found',

@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { NavigatorComponent } from './navigator/navigator.component';
+
 
 @NgModule({
   imports: [
@@ -13,11 +15,13 @@ import { NotFoundComponent } from './not-found/not-found.component';
     RouterModule
   ],
   declarations:
-  [ NotFoundComponent,
-    ShellComponent,
+  [ ShellComponent,
     HeaderComponent,
     MainComponent,
-    FooterComponent
-  ]
+    FooterComponent,
+    NavigatorComponent
+  ],
+  exports: [NavigatorComponent]
 })
+// declarations: ,NotFoundComponent
 export class CoreModule { }
